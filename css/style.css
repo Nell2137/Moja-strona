@@ -39,6 +39,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .button { 
     background-color: #33142E; 
     padding: 20px;
+    border-radius: 20px;
 }
 .button:hover { 
     background-color:aliceblue;
@@ -46,7 +47,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
+    .button-text { color: black;}
 }
+
 .button-text { 
     color: aliceblue;
     text-decoration: none;
@@ -117,14 +120,64 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .photos-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    
     background-color: #FCDBC7;
+    flex-wrap: wrap;
+    
 }
 
-.photo1 {width: 80%;}
-.photo2 {width: 90%;}
-.photo3 {width: 90%;}
+.photo1 { flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+
+
+}
+.photo1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.photo2 { flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.photo2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+    
+
+.photo3  { flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+
+}
+.photo3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.photo4 {flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;}
+
+.photo4 
 
 .interest { background-color: #F57F4F;
             display: flex;
