@@ -114,7 +114,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .about-photo{
         padding-right: 180px;
         float: right;
-        
 }
 
 .about-me-text-group{
@@ -298,10 +297,67 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             height: auto;
             display: block;} 
 
+
+
+.footer { background-color: #F57F4F;
+    height: 200px;
+    line-height: 120px;
+    font-size: 25px;}
+
+.contact-btn { margin: 0 auto;
+    display: block;
+    background-color: #F57F4F;
+    color: #fff;
+    border: none;
+    padding: 8px 32px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    border: 1px solid #4f247c;
+    background-color: #fff;
+    color: #000;
+}
+
 .contact{
     background-color: #33142E;
     color: white;
-    height: 300px;
-    line-height: 120px;
-    font-size: 25px;
+    height: 500px;
+    line-height: 50px;
+    font-size: 20px;
+
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+input,
+textarea {
+    width: 100%;
+    border: 2px solid #4f247c;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    border: none;
+    outline: 1px solid #bf0034;
+}
+
+input {
+    margin-bottom: 16px;
+}
+
+textarea {
+    margin-bottom: 20px;
 }
