@@ -98,6 +98,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-color: #FCDBC7;
     height: 100vh;
     width: 100vw;
+    
 }
 
 .about-me-hello{
@@ -114,6 +115,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .about-photo{
         padding-right: 180px;
         float: right;
+        
 }
 
 .about-me-text-group{
@@ -184,9 +186,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .photo4 
 
 .interest { background-color: #F57F4F;
-            display: flex;
-            justify-content: center;
-            align-items: center;}
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
 
 .interest1 { 
@@ -299,11 +301,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 
-.footer { background-color: #F57F4F;
-    height: 200px;
-    line-height: 120px;
-    font-size: 25px;}
-
 .contact-btn { margin: 0 auto;
     display: block;
     background-color: #F57F4F;
@@ -360,4 +357,23 @@ input {
 
 textarea {
     margin-bottom: 20px;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.footer { background-color: #F57F4F;
+    height: 200px;
+    line-height: 120px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Ustawienie tekstu na dole */
+}
+
+.footer_text { 
+    margin-bottom: 10px;
 }
