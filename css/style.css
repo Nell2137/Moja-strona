@@ -113,9 +113,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
 .about-photo{
-        padding-right: 180px;
-        float: right;
-        
+    padding-right: 180px;
+    float: right;
+    margin-left: 40px;
+    width: 500px;
+    padding-top: 0px;
+    
 }
 
 .about-me-text-group{
@@ -189,113 +192,81 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    text-align: center; }
 
+.interest-text {
+    font-size: 20px;
+    line-height: 30px; 
+}
+
+.material-symbols-outlined {
+    font-size: 50px;
+}
+
+
+.interest-card-heading {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
 
 .interest1 { 
-    margin-top: 10px; 
+    margin-top: 350px; 
     margin-bottom: 10px; 
     margin-left: 15px; 
     margin-right: 15px;
     padding: 10px;
-    max-width: 400px; 
+    max-width: 300px; 
     width: 100%; 
     text-align: center;
     float: left;
     width: 50%;}
 
-.interest2 { margin-top: 10px; 
+.interest2 { margin-top: 350px; 
     margin-bottom: 10px; 
     margin-left: 15px; 
     margin-right: 15px;
     padding: 10px;
-    max-width: 400px; 
+    max-width: 300px; 
     width: 100%; 
     text-align: center;
     float: left;
     width: 50%;}
 
-.interest3 { margin-top: 10px; 
+.interest3 { margin-top: 350px; 
     margin-bottom: 10px; 
     margin-left: 15px; 
     margin-right: 15px;
     padding: 10px; 
-    max-width: 400px; 
+    max-width: 300px; 
     width: 100%;
     text-align: center;
     float: left;
     width: 50%;}
 
-.interest4 { margin-top: 10px; 
+.interest4 { margin-top: 350px; 
     margin-bottom: 10px; 
     margin-left: 15px; 
     margin-right: 15px;
     padding: 10px; 
-    max-width: 400px; 
+    max-width: 300px; 
     width: 100%;
     text-align: center;
     float: left;
     width: 50%;}
 
-    .material-symbols-outlined { font-size: 50px;}
 
     
         .photos-container {
             display: flex;
             height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 40px;
+            column-gap: 30px;
+            justify-content: center;
         }
 
-        .photo1 {
-            flex: 1; 
-            margin: 10px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block; 
-        }
-
-
-            .photo2 {
-                flex: 1; 
-                margin: 10px;
-            }
-    
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block; }
-
-        .photo3 {
-            flex: 1; 
-            margin: 10px;
-                }
-        
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block; }
-
-        .photo4 {
-            flex: 1; 
-            margin: 10px;
-                    }
-            
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block; }
-
-        .photo1 {
-            flex: 1; 
-            margin: 10px;
-                        }
-                
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;} 
 
 
 
@@ -338,7 +309,7 @@ label {
 input,
 textarea {
     width: 100%;
-    border: 2px solid #4f247c;
+    border: 2px solid #F57F4F
     padding: 8px;
     border-radius: 5px;
 }
@@ -346,7 +317,7 @@ textarea {
 input:focus,
 textarea:focus {
     border: none;
-    outline: 1px solid #bf0034;
+    outline: 3px solid #F57F4F; 
 }
 
 input {
