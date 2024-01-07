@@ -203,6 +203,26 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .material-symbols-outlined {
     font-size: 50px;
 }
+/*nie wiem co robie
+.interest-card-heading {
+    margin-bottom: 20px;
+  }
+  
+  .interest-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media screen and (min-width: 995px) {
+    .interest-wrapper {
+      justify-content: space-between;
+    }
+    .interest-card {
+      min-width: 100px;
+      max-width: 20%;
+      text-align: center;
+    }
+    */
 
 
 .interest-card-heading {
